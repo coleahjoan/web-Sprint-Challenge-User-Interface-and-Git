@@ -70,11 +70,23 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin:2rem 0 2rem 0;
+}
+.topnav a{
+    text-decoration:none;
+    color:black;
+    padding:2rem;
+    align-items:flex-end;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top:20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -102,14 +114,74 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
     justify-content: center;
+}
+.box1{
+    background-color:teal;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box2{
+    background-color:gold;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box3{
+    background-color:cadetblue;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box4{
+    background-color:coral;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box5{
+    background-color:crimson;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box6{
+    background-color:forestgreen;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box7{
+    background-color:darkorchid;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box8{
+    background-color:hotpink;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box9{
+    background-color:indigo;
+    width:13%;
+    padding:2rem;
+    margin:1rem;
+}
+.box10{
+    background-color:dodgerblue;
+    width:13%;
+    padding:1.6rem;
+    margin:1rem;
 }
 
 .bottom-content {
@@ -143,4 +215,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*about section styling*/
+.main-about{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    max-width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.about-box img{
+    max-width:100%;
+}
+.about-box{
+    max-width:48%;
+    padding-bottom:1.5rem;
+    padding-top:1.5rem;
+    border-bottom: 1px dashed black;
+}
+.about-box p{
+    padding-bottom:2rem;
+}
+.about-box h2{
+    padding:1rem 0 1rem 0;
+}
+.learn-button{
+    border:1.5px solid black;
+    border-radius:8px;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    text-decoration:none;
+    color:black;
+}
+.about{
+    border-bottom: 1px dashed black;
+    margin:1rem;
+}
+.about p{
+    margin-bottom:1rem;
+}
+.workTogether{
+    margin:2rem 0 2rem 0;
 }
